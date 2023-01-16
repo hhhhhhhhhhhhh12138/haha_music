@@ -1,0 +1,13 @@
+.widgets-body {
+  width: 97%;
+  height: 55%;
+  margin-bottom: 0px;
+  
+  border-radius: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(135, 52, 98, 0.271);
+  
+  -webkit-backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(3.5px);
+}

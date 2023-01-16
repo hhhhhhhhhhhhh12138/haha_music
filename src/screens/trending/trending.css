@@ -1,0 +1,10 @@
+.trend-body {
+    margin-top: 3%;
+    width: 92%;
+    height: 95%;
+    flex-direction: column;
+    border-radius: 30px;
+    background: rgba(135, 52, 98, 0);
+    margin-left: 4%;
+    
+}

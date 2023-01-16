@@ -1,0 +1,72 @@
+
+.trendEntry-card{
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #eeeceb;
+    border: 0px solid #d92b7b;
+    padding: 1%;
+    margin: 0.5%;
+    background-color: #cd4886ad;
+    color:#4b2737;
+    transition: all 0.2 ease;
+    margin-right: 2%;
+    flex-basis: calc(15% - 20px); 
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 1px rgba(39, 1, 19, 0.693); 
+    
+}
+
+.trendEntry-card:hover{
+    transform: scale(1.02);
+  }
+
+.trendEntry-card:hover .trendEntry-fade {
+    opacity: 1;
+  }
+
+.trendEntry-image{
+    width: 100%;
+    border-radius: 15px;
+    aspect-ratio: 1;
+}
+
+
+.trendEntry-title{
+    font-weight: bold;
+    font-size: 6px;
+    margin: 10px 0px 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.trendEntry-num{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px;
+    
+}
+
+.trendEntry-fade {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 85%;
+    height: 34%;
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(54, 69, 98, 0) 10%,
+      #78234b 100%
+    );
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 8%;
+    transition: 0.5s ease;
+  }
